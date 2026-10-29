@@ -1,0 +1,39 @@
+﻿# Git and editor files
+.git/
+.vscode/
+.idea/
+
+# Java compiled files
+backend/out/
+*.class
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Local logs and temporary files
+*.log
+*.tmp
+
+# Project backups
+CineReserve_Backup_*/
+*.before-auth*.html
+*.before-details*.html
+*.before-auth*.js
+*.before-details*.js
+backend/src/before-auth-*/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Additional backup files
+*.bak
+*.backup.*
+
+# CockroachDB local store and Java build output
+cockroach-data/
+backend/out/
+backend/lib/postgresql.jar
+backend/sources.list
